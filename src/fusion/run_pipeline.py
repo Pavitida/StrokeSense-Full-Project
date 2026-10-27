@@ -6,6 +6,7 @@ import json
 from src.face.face_inference import predict_face
 from src.speech.speech_inference import predict_speech
 from src.movement.movement_inference import predict_movement
+from src.fusion.fusion_model import predict_fusion
 
 
 def run_pipeline(image_path, audio_path, video_path):
@@ -60,22 +61,18 @@ def run_pipeline(image_path, audio_path, video_path):
         "movement": movement["score"],
     }
 
-    # Prototype aggregation only; not a calibrated medical risk score.
-    combined_score = sum(scores.values()) / len(scores)
+    fusion = predict_fusion(
+        scores["face"],
+        scores["speech"],
+        scores["movement"],
+    )
 
     return {
-        "status": "success",
+        "status": "success" if fusion["status"] == "success" else "incomplete",
         "face": face,
         "speech": speech,
         "movement": movement,
-        "fusion": {
-            "method": "equal_weight_mean",
-            "score": combined_score,
-            "note": (
-                "Experimental combined abnormality score. "
-                "Not a stroke probability or medical diagnosis."
-            ),
-        },
+        "fusion": fusion,
     }
 
 
