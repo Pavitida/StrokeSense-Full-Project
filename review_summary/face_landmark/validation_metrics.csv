@@ -1,0 +1,2 @@
+split,samples,accuracy,precision,recall,f1,roc_auc
+validation,10,0.6,0.6,0.6,0.6,0.6799999999999999
