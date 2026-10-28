@@ -3,6 +3,8 @@
 from pathlib import Path
 import argparse
 
+from src.inference_device import mediapipe_delegate
+
 import cv2
 import joblib
 import mediapipe as mp
@@ -43,7 +45,7 @@ def predict_face(image_path):
     options = mp.tasks.vision.FaceLandmarkerOptions(
         base_options=mp.tasks.BaseOptions(
             model_asset_path=str(LANDMARKER_PATH),
-            delegate=mp.tasks.BaseOptions.Delegate.CPU,
+            delegate=mediapipe_delegate(),
         ),
         running_mode=mp.tasks.vision.RunningMode.IMAGE,
         num_faces=1,

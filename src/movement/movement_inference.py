@@ -3,6 +3,8 @@
 from pathlib import Path
 import argparse
 
+from src.inference_device import mediapipe_delegate
+
 import joblib
 import mediapipe as mp
 import numpy as np
@@ -38,7 +40,8 @@ def predict_movement(video_path):
 
     options = PoseLandmarkerOptions(
         base_options=BaseOptions(
-            model_asset_path=str(POSE_MODEL_PATH)
+            model_asset_path=str(POSE_MODEL_PATH),
+            delegate=mediapipe_delegate(),
         ),
         running_mode=RunningMode.VIDEO,
         num_poses=1,
