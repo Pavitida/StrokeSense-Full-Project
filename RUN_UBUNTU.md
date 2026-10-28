@@ -67,7 +67,7 @@ API reference: https://docs.streamlit.io/develop/api-reference/custom-components
 
 ## Accuracy display
 
-The app shows a labeled-data Accuracy table from outputs/data_sample_test/results.json.
+Accuracy is available in terminal reports; the web Data panel has been removed.
 Live camera inference scores are separate from accuracy. The sample runner prints accuracy at completion.
 To summarize saved results without rerunning inference:
 

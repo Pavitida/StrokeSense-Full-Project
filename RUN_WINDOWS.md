@@ -9,7 +9,7 @@ Double-click `run-app.cmd`, or run this in the VS Code PowerShell terminal:
 
 ```powershell
 cd C:\StrokeSense-Project
-.\.venv\Scripts\python.exe -m streamlit run app.py --server.address 127.0.0.1 --browser.gatherUsageStats false
+.\.venv\Scripts\python.exe scripts/serve.py
 ```
 
 Open http://localhost:8501. Stop with Ctrl+C in the terminal.

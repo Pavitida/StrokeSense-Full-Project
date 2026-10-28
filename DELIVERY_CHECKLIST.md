@@ -17,7 +17,7 @@
 
 ## Verification evidence
 
-Populate final test evidence after running the suite and live API checks. Mocked tests are not a substitute for hardware/browser verification.
+Python unittest suite: 25 tests passed with 1 legacy fixture-dependent class skipped. Live HTTP API checked with actual model inputs; missing Fusion returns no score. Mocked tests are not a substitute for hardware/browser verification.
 
 ## Still requires a real deployment or target device
 

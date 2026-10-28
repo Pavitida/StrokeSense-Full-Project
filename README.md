@@ -45,7 +45,7 @@ Allow browser permissions only when you want to capture. If denied, use site set
 
 The display separates the three modules and shows `success`, `incomplete` or `model_not_trained`. A score is a model class score, not accuracy and not a stroke percentage. Low scores do not establish health. Fusion is shown only when all modules succeed and its model is present. `models/fusion_model.pkl` is not included: no substitute fusion scores or fabricated labels are produced.
 
-The saved-data Accuracy panel is distinct from live inference. Current sample checks are small and not clinical validation. Face split membership is unverified. Movement CPU/GPU outputs differ materially and accuracy on the selected samples was poor. **The model remains unsuitable for health decisions; this release improves workflow, not validated medical accuracy.**
+Saved-data accuracy reports are available from the evaluation scripts; the Data results panel has been removed from the web UI. Current sample checks are small and not clinical validation. Face split membership is unverified. Movement CPU/GPU outputs differ materially and accuracy on the selected samples was poor. **The model remains unsuitable for health decisions; this release improves workflow, not validated medical accuracy.**
 
 ## API
 
