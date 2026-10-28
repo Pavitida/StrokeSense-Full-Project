@@ -1,0 +1,2 @@
+# Same model-library pins as the existing project; macOS installation is unverified.
+-r requirements-ubuntu.txt

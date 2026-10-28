@@ -2,6 +2,10 @@
 
 Local research prototype for facial asymmetry, speech characteristics and rehabilitation movement completeness. **Not a medical diagnosis or a validated stroke probability.** Sudden facial weakness, arm weakness or speech changes require urgent care; in Thailand call **1669 without waiting for AI**. [Department of Disease Control](https://www.ddc.moph.go.th/odpc4/news.php?deptcode=odpc4&news=61128).
 
+## macOS installation
+
+See [RUN_MACOS.md](RUN_MACOS.md) for an Apple Silicon (M-series, native arm64) quick start, frontend-only setup in VS Code, connecting an existing backend, or running the full app with Python 3.11 and CPU inference. macOS installation and hardware capture remain unverified.
+
 ## Ubuntu / WSL installation
 
 Python 3.11 is required. Clone the repository and run from its root:
