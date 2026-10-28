@@ -35,3 +35,15 @@ outputs/
 *.bak
 
 YFP_Dataset_Updated/
+
+# Local Python bootstrap
+.python/
+.tools/
+
+# Ubuntu runtime
+.venv-ubuntu/
+.python-ubuntu/
+.tools-ubuntu/
+
+/Data/
+*.log

@@ -1,3 +1,5 @@
 datasets/face/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
 data/speech/torgo/data/*.parquet filter=lfs diff=lfs merge=lfs -text
 data/movement/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
+
+*.sh text eol=lf

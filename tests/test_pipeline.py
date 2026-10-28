@@ -21,6 +21,12 @@ NO_PERSON = ROOT / "tests/fixtures/no_person.mp4"
 
 class TestStrokeSensePipeline(unittest.TestCase):
 
+    @classmethod
+    def setUpClass(cls):
+        if not all(p.exists() for p in [IMAGE, AUDIO, VIDEO, ROOT / "models/fusion_model.pkl"]):
+            raise unittest.SkipTest("Legacy full pipeline fixtures/fusion model unavailable; see test_api real-backend tests")
+
+
     def test_normal_pipeline(self):
         result = run_pipeline(str(IMAGE), str(AUDIO), str(VIDEO))
 
