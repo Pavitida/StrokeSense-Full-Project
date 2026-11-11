@@ -1,0 +1,22 @@
+exercise,person_id,videos,actual_complete,actual_incomplete,predicted_complete,predicted_incomplete,false_complete,missed_complete
+1_Lifting an Object,1,20,10,10,19,1,9,0
+1_Lifting an Object,2,22,10,12,9,13,2,3
+1_Lifting an Object,3,19,11,8,5,14,4,10
+1_Lifting an Object,4,21,11,10,11,10,3,3
+1_Lifting an Object,5,21,10,11,11,10,1,0
+2_Extending the Elbow,1,21,9,12,13,8,4,0
+2_Extending the Elbow,2,24,10,14,10,14,3,3
+2_Extending the Elbow,3,22,11,11,12,10,4,3
+2_Extending the Elbow,4,20,10,10,10,10,3,3
+2_Extending the Elbow,5,20,10,10,8,12,2,4
+3_Lifting the Wrist,2,20,10,10,10,10,2,2
+3_Lifting the Wrist,3,15,10,5,15,0,5,0
+3_Lifting the Wrist,4,21,10,11,8,13,0,2
+3_Lifting the Wrist,5,20,10,10,20,0,10,0
+3_Lifting the Wrist,6,25,10,15,9,16,0,1
+4_Opening the Hand,1,10,0,10,4,6,4,0
+4_Opening the Hand,2,20,10,10,9,11,1,2
+4_Opening the Hand,3,9,9,0,7,2,0,2
+4_Opening the Hand,4,22,11,11,6,16,2,7
+4_Opening the Hand,5,20,10,10,10,10,2,2
+4_Opening the Hand,6,19,10,9,18,1,9,1

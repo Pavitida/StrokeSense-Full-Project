@@ -1,0 +1,16 @@
+speaker_id,samples,speech_status,gender,total_duration
+F01,236,dysarthria,female,573.618
+F03,1087,dysarthria,female,2985.654
+F04,673,dysarthria,female,2202.221
+FC01,302,healthy,female,1082.92
+FC02,2187,healthy,female,6221.787
+FC03,1922,healthy,female,5000.872
+M01,743,dysarthria,male,2935.933
+M02,772,dysarthria,male,2836.811
+M03,810,dysarthria,male,2544.565
+M04,666,dysarthria,male,2872.644
+M05,587,dysarthria,male,2705.755
+MC01,2155,healthy,male,6512.197
+MC02,1123,healthy,male,3974.911
+MC03,1669,healthy,male,3536.254
+MC04,1620,healthy,male,3252.156

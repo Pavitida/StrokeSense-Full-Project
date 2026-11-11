@@ -1,0 +1,10 @@
+{
+  "version": "movement_v3",
+  "algorithm": "RandomForest",
+  "validation": "LeaveOneGroupOut",
+  "group": "person_id",
+  "development_samples": 411,
+  "reserved_test_samples": 80,
+  "hand_extraction": "experiments/movement/hand_feature_extractor_v2.py",
+  "status": "trained_not_tested"
+}

@@ -1,0 +1,5 @@
+n,accuracy,precision,recall,f1,roc_auc,exercise,model
+20,0.6,0.5555555555555556,1.0,0.7142857142857143,0.83,1_Lifting an Object,Exercise-specific
+20,0.45,0.47368421052631576,0.9,0.6206896551724138,0.38,2_Extending the Elbow,Global
+16,0.4375,0.4375,1.0,0.6086956521739131,0.5317460317460317,3_Lifting the Wrist,Global
+18,0.4444444444444444,0.0,0.0,0.0,0.42500000000000004,4_Opening the Hand,Exercise-specific

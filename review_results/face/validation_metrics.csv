@@ -1,0 +1,2 @@
+﻿model,accuracy,macro_precision,macro_recall,macro_f1,training_time_seconds
+LinearSVC,0.9138290479499652,0.9163783282848235,0.9261089663535296,0.9210953940452782,15.520771026611328

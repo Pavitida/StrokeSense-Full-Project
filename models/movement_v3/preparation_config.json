@@ -1,0 +1,14 @@
+{
+  "version": "movement_v3",
+  "algorithm": "RandomForest",
+  "pose_exercises": [
+    1,
+    2,
+    3
+  ],
+  "hand_exercise": 4,
+  "validation": "Leave-One-Group-Out",
+  "group": "person_id",
+  "test_policy": "reserved_until_final_evaluation",
+  "status": "preparation"
+}

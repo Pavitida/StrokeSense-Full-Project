@@ -1,0 +1,67 @@
+person_id,exercise,label,split,pose_detection_rate,true_target,probability_incomplete,predicted_target,predicted_label,correct,error_type,pose_quality
+7,1_Lifting an Object,Complete,test,0.9943502824858758,0,0.3311931576791896,0,Complete,True,Correct,>90%
+7,1_Lifting an Object,Complete,test,1.0,0,0.8041266614899619,1,Incomplete,False,False Positive,>90%
+7,1_Lifting an Object,Complete,test,1.0,0,0.2830230935530732,0,Complete,True,Correct,>90%
+7,1_Lifting an Object,Complete,test,0.9940476190476192,0,0.0282773978352249,0,Complete,True,Correct,>90%
+7,1_Lifting an Object,Complete,test,0.994186046511628,0,0.5987675470323929,1,Incomplete,False,False Positive,>90%
+7,1_Lifting an Object,Complete,test,0.9830508474576272,0,0.0279438619812405,0,Complete,True,Correct,>90%
+7,1_Lifting an Object,Complete,test,0.9813084112149532,0,0.7508353015145631,1,Incomplete,False,False Positive,>90%
+7,1_Lifting an Object,Complete,test,0.9952830188679244,0,0.5903449837905004,1,Incomplete,False,False Positive,>90%
+7,1_Lifting an Object,Complete,test,0.986842105263158,0,0.8767680339446172,1,Incomplete,False,False Positive,>90%
+7,1_Lifting an Object,Complete,test,0.9904306220095692,0,0.3639570318033207,0,Complete,True,Correct,>90%
+7,1_Lifting an Object,Incomplete,test,1.0,1,0.4563377382362309,0,Complete,False,False Negative,>90%
+7,1_Lifting an Object,Incomplete,test,0.9694656488549618,1,0.4796772232017953,0,Complete,False,False Negative,>90%
+7,1_Lifting an Object,Incomplete,test,1.0,1,0.9891381267059088,1,Incomplete,True,Correct,>90%
+7,1_Lifting an Object,Incomplete,test,1.0,1,0.9871954285506358,1,Incomplete,True,Correct,>90%
+7,1_Lifting an Object,Incomplete,test,0.9551282051282052,1,0.5607343238231633,1,Incomplete,True,Correct,>90%
+7,1_Lifting an Object,Incomplete,test,0.5986394557823129,1,0.952751315302004,1,Incomplete,True,Correct,50-70%
+7,1_Lifting an Object,Incomplete,test,0.9318181818181818,1,0.0577182679275259,0,Complete,False,False Negative,>90%
+7,1_Lifting an Object,Incomplete,test,1.0,1,0.998223299078256,1,Incomplete,True,Correct,>90%
+7,1_Lifting an Object,Incomplete,test,0.961783439490446,1,0.7445883158139089,1,Incomplete,True,Correct,>90%
+7,1_Lifting an Object,Incomplete,test,0.9681528662420382,1,0.8508808519686277,1,Incomplete,True,Correct,>90%
+8,2_Extending the Elbow,Complete,test,1.0,0,0.126065382632437,0,Complete,True,Correct,>90%
+8,2_Extending the Elbow,Complete,test,0.8819875776397516,0,0.0260244878582804,0,Complete,True,Correct,70-90%
+8,2_Extending the Elbow,Complete,test,0.9556962025316456,0,0.0299867936339739,0,Complete,True,Correct,>90%
+8,2_Extending the Elbow,Complete,test,0.643312101910828,0,0.0701547086155447,0,Complete,True,Correct,50-70%
+8,2_Extending the Elbow,Complete,test,0.953020134228188,0,0.7182670668866644,1,Incomplete,False,False Positive,>90%
+8,2_Extending the Elbow,Complete,test,0.992248062015504,0,0.047591625766805,0,Complete,True,Correct,>90%
+8,2_Extending the Elbow,Complete,test,0.992063492063492,0,0.0226772538064311,0,Complete,True,Correct,>90%
+8,2_Extending the Elbow,Complete,test,1.0,0,0.0141134406323209,0,Complete,True,Correct,>90%
+8,2_Extending the Elbow,Complete,test,0.8536585365853658,0,0.3509568723872076,0,Complete,True,Correct,70-90%
+8,2_Extending the Elbow,Complete,test,1.0,0,0.5009663146490866,1,Incomplete,False,False Positive,>90%
+8,2_Extending the Elbow,Incomplete,test,0.9212598425196852,1,0.039138545679387,0,Complete,False,False Negative,>90%
+8,2_Extending the Elbow,Incomplete,test,0.9571428571428572,1,0.3028199503088052,0,Complete,False,False Negative,>90%
+8,2_Extending the Elbow,Incomplete,test,1.0,1,0.964480538287222,1,Incomplete,True,Correct,>90%
+8,2_Extending the Elbow,Incomplete,test,0.9166666666666666,1,0.000940638884778,0,Complete,False,False Negative,>90%
+8,2_Extending the Elbow,Incomplete,test,0.9921875,1,0.0139344934769301,0,Complete,False,False Negative,>90%
+8,2_Extending the Elbow,Incomplete,test,0.9516129032258064,1,0.0114164767224906,0,Complete,False,False Negative,>90%
+8,2_Extending the Elbow,Incomplete,test,0.7384615384615385,1,0.0509240909580829,0,Complete,False,False Negative,70-90%
+8,2_Extending the Elbow,Incomplete,test,1.0,1,0.9684619691970262,1,Incomplete,True,Correct,>90%
+8,2_Extending the Elbow,Incomplete,test,0.9774436090225564,1,0.8644154563447074,1,Incomplete,True,Correct,>90%
+10,3_Lifting the Wrist,Complete,test,0.7065217391304348,0,0.7426320405081489,1,Incomplete,False,False Positive,70-90%
+10,3_Lifting the Wrist,Complete,test,0.8229166666666666,0,0.8466707459279741,1,Incomplete,False,False Positive,70-90%
+10,3_Lifting the Wrist,Complete,test,0.9015544041450776,0,0.9991229169176908,1,Incomplete,False,False Positive,>90%
+10,3_Lifting the Wrist,Complete,test,0.9144385026737968,0,0.9589194695391756,1,Incomplete,False,False Positive,>90%
+10,3_Lifting the Wrist,Complete,test,0.8192090395480226,0,0.2192385519858373,0,Complete,True,Correct,70-90%
+10,3_Lifting the Wrist,Complete,test,0.956989247311828,0,0.0195526709966159,0,Complete,True,Correct,>90%
+10,3_Lifting the Wrist,Complete,test,0.4278350515463917,0,0.7742157132755916,1,Incomplete,False,False Positive,<50%
+10,3_Lifting the Wrist,Complete,test,0.8108108108108109,0,0.2264215559139378,0,Complete,True,Correct,70-90%
+10,3_Lifting the Wrist,Complete,test,1.0,0,0.9981503740849216,1,Incomplete,False,False Positive,>90%
+10,3_Lifting the Wrist,Incomplete,test,0.6715686274509803,1,0.7061961386679272,1,Incomplete,True,Correct,50-70%
+10,3_Lifting the Wrist,Incomplete,test,0.7161290322580646,1,0.1799636242420542,0,Complete,False,False Negative,70-90%
+10,3_Lifting the Wrist,Incomplete,test,0.702247191011236,1,0.0916797166991793,0,Complete,False,False Negative,70-90%
+10,3_Lifting the Wrist,Incomplete,test,0.4472049689440994,1,0.8406804494404,1,Incomplete,True,Correct,<50%
+10,3_Lifting the Wrist,Incomplete,test,0.488235294117647,1,0.0001098801856101,0,Complete,False,False Negative,<50%
+10,3_Lifting the Wrist,Incomplete,test,0.5872093023255814,1,0.1671247365773956,0,Complete,False,False Negative,50-70%
+9,4_Opening the Hand,Complete,test,1.0,0,0.9493639618394482,1,Incomplete,False,False Positive,>90%
+9,4_Opening the Hand,Complete,test,0.9405405405405406,0,0.1579874693494156,0,Complete,True,Correct,>90%
+9,4_Opening the Hand,Complete,test,0.9943181818181818,0,0.3445724121143911,0,Complete,True,Correct,>90%
+9,4_Opening the Hand,Complete,test,1.0,0,0.8068748441731046,1,Incomplete,False,False Positive,>90%
+9,4_Opening the Hand,Complete,test,1.0,0,0.8959659311654102,1,Incomplete,False,False Positive,>90%
+9,4_Opening the Hand,Complete,test,0.8092485549132948,0,0.8543797080123406,1,Incomplete,False,False Positive,70-90%
+9,4_Opening the Hand,Incomplete,test,0.5833333333333334,1,0.0754223864518455,0,Complete,False,False Negative,50-70%
+9,4_Opening the Hand,Incomplete,test,0.961904761904762,1,0.5033166792764064,1,Incomplete,True,Correct,>90%
+9,4_Opening the Hand,Incomplete,test,1.0,1,0.9253446600848984,1,Incomplete,True,Correct,>90%
+9,4_Opening the Hand,Incomplete,test,0.9781420765027322,1,0.0023470140649548,0,Complete,False,False Negative,>90%
+9,4_Opening the Hand,Incomplete,test,0.9945945945945946,1,0.043012798968613,0,Complete,False,False Negative,>90%
+9,4_Opening the Hand,Incomplete,test,0.625,1,0.8855603692424691,1,Incomplete,True,Correct,50-70%

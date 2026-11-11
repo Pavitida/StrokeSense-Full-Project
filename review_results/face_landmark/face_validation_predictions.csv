@@ -1,0 +1,11 @@
+person_id,label,true_label,affected_probability,frames,prediction
+affected_22,affected,1,0.34702733028264704,100,0
+affected_26,affected,1,0.8472467374692255,100,1
+affected_27,affected,1,0.5944852816900527,60,1
+affected_6,affected,1,0.45986898969620954,100,0
+affected_8,affected,1,0.9231220864542148,61,1
+unaffected_11,unaffected,0,0.46726347882411157,100,0
+unaffected_21,unaffected,0,0.3054996064960003,60,0
+unaffected_3,unaffected,0,0.5831647189843124,100,1
+unaffected_4,unaffected,0,0.4063051277706799,100,0
+unaffected_5,unaffected,0,0.6603531097838585,80,1
