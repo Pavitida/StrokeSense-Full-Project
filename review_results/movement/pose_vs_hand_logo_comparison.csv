@@ -1,0 +1,7 @@
+feature_set,model,features,accuracy,f1_complete,roc_auc,false_complete,missed_complete
+Pose Only,Random Forest,55,0.68,0.6923076923076923,0.7203999999999999,18,14
+Pose Only,Logistic Regression,55,0.75,0.7524752475247525,0.802,13,12
+Hand Only,Random Forest,18,1.0,1.0,1.0,0,0
+Hand Only,Logistic Regression,18,1.0,1.0,1.0,0,0
+Pose + Hand,Random Forest,73,1.0,1.0,1.0,0,0
+Pose + Hand,Logistic Regression,73,0.96,0.9607843137254902,0.9975999999999999,3,1

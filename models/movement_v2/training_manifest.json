@@ -1,0 +1,48 @@
+{
+  "trained_at": "2026-11-08T02:43:31.121106",
+  "development_samples": 411,
+  "test_samples_reserved": 80,
+  "models": {
+    "1_Lifting an Object": {
+      "model_file": "exercise_1_pose_rf.pkl",
+      "feature_type": "Pose",
+      "feature_count": 55,
+      "development_samples": 103,
+      "labels": {
+        "Complete": 52,
+        "Incomplete": 51
+      }
+    },
+    "2_Extending the Elbow": {
+      "model_file": "exercise_2_pose_rf.pkl",
+      "feature_type": "Pose",
+      "feature_count": 55,
+      "development_samples": 107,
+      "labels": {
+        "Incomplete": 57,
+        "Complete": 50
+      }
+    },
+    "3_Lifting the Wrist": {
+      "model_file": "exercise_3_pose_rf.pkl",
+      "feature_type": "Pose",
+      "feature_count": 55,
+      "development_samples": 101,
+      "labels": {
+        "Incomplete": 51,
+        "Complete": 50
+      }
+    },
+    "4_Opening the Hand": {
+      "model_file": "exercise_4_hand_rf.pkl",
+      "feature_type": "Hand",
+      "feature_count": 3,
+      "development_samples": 100,
+      "labels": {
+        "Complete": 50,
+        "Incomplete": 50
+      }
+    }
+  },
+  "note": "Training only. No independent test evaluation."
+}

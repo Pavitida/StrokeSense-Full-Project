@@ -10,9 +10,7 @@ class TestFusionPipeline(unittest.TestCase):
     @patch("src.fusion.run_pipeline.predict_movement")
     @patch("src.fusion.run_pipeline.predict_speech")
     @patch("src.fusion.run_pipeline.predict_face")
-    def test_successful_pipeline(
-        self, face, speech, movement, fusion
-    ):
+    def test_successful_pipeline(self, face, speech, movement, fusion):
         face.return_value = {"status": "success", "score": 0.8}
         speech.return_value = {"status": "success", "score": 0.6}
         movement.return_value = {"status": "success", "score": 0.7}
@@ -32,9 +30,7 @@ class TestFusionPipeline(unittest.TestCase):
     @patch("src.fusion.run_pipeline.predict_movement")
     @patch("src.fusion.run_pipeline.predict_speech")
     @patch("src.fusion.run_pipeline.predict_face")
-    def test_untrained_fusion(
-        self, face, speech, movement, fusion
-    ):
+    def test_untrained_fusion(self, face, speech, movement, fusion):
         face.return_value = {"status": "success", "score": 0.8}
         speech.return_value = {"status": "success", "score": 0.6}
         movement.return_value = {"status": "success", "score": 0.7}

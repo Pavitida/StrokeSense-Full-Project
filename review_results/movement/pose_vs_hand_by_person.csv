@@ -1,0 +1,37 @@
+feature_set,model,person_id,videos,accuracy,false_complete,missed_complete
+Pose Only,Random Forest,1,10,0.6,4,0
+Pose Only,Random Forest,2,20,0.85,1,2
+Pose Only,Random Forest,3,9,0.7777777777777778,0,2
+Pose Only,Random Forest,4,22,0.5909090909090909,2,7
+Pose Only,Random Forest,5,20,0.8,2,2
+Pose Only,Random Forest,6,19,0.47368421052631576,9,1
+Pose Only,Logistic Regression,1,10,0.8,2,0
+Pose Only,Logistic Regression,2,20,0.9,1,1
+Pose Only,Logistic Regression,3,9,0.8888888888888888,0,1
+Pose Only,Logistic Regression,4,22,0.6363636363636364,2,6
+Pose Only,Logistic Regression,5,20,0.8,4,0
+Pose Only,Logistic Regression,6,19,0.5789473684210527,4,4
+Hand Only,Random Forest,1,10,1.0,0,0
+Hand Only,Random Forest,2,20,1.0,0,0
+Hand Only,Random Forest,3,9,1.0,0,0
+Hand Only,Random Forest,4,22,1.0,0,0
+Hand Only,Random Forest,5,20,1.0,0,0
+Hand Only,Random Forest,6,19,1.0,0,0
+Hand Only,Logistic Regression,1,10,1.0,0,0
+Hand Only,Logistic Regression,2,20,1.0,0,0
+Hand Only,Logistic Regression,3,9,1.0,0,0
+Hand Only,Logistic Regression,4,22,1.0,0,0
+Hand Only,Logistic Regression,5,20,1.0,0,0
+Hand Only,Logistic Regression,6,19,1.0,0,0
+Pose + Hand,Random Forest,1,10,1.0,0,0
+Pose + Hand,Random Forest,2,20,1.0,0,0
+Pose + Hand,Random Forest,3,9,1.0,0,0
+Pose + Hand,Random Forest,4,22,1.0,0,0
+Pose + Hand,Random Forest,5,20,1.0,0,0
+Pose + Hand,Random Forest,6,19,1.0,0,0
+Pose + Hand,Logistic Regression,1,10,1.0,0,0
+Pose + Hand,Logistic Regression,2,20,1.0,0,0
+Pose + Hand,Logistic Regression,3,9,1.0,0,0
+Pose + Hand,Logistic Regression,4,22,0.9545454545454546,0,1
+Pose + Hand,Logistic Regression,5,20,0.85,3,0
+Pose + Hand,Logistic Regression,6,19,1.0,0,0

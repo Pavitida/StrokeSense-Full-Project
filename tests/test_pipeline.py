@@ -30,12 +30,13 @@ class TestStrokeSensePipeline(unittest.TestCase):
     def test_normal_pipeline(self):
         result = run_pipeline(str(IMAGE), str(AUDIO), str(VIDEO))
 
-        self.assertEqual(result["status"], "success")
         for name in ("face", "speech", "movement"):
             self.assertEqual(result[name]["status"], "success")
             self.assertIsNotNone(result[name]["score"])
 
-        self.assertIsNotNone(result["fusion"]["score"])
+        self.assertEqual(result["status"], "incomplete")
+        self.assertEqual(result["fusion"]["status"], "model_not_trained")
+        self.assertIsNone(result["fusion"]["score"])
 
     def test_no_face(self):
         result = run_pipeline(str(NO_FACE), str(AUDIO), str(VIDEO))

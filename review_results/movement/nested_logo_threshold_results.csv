@@ -1,0 +1,22 @@
+exercise,held_out_person,videos,selected_threshold,accuracy,false_complete,missed_complete
+1_Lifting an Object,1,20,0.55,0.55,9,0
+1_Lifting an Object,2,22,0.55,0.7727272727272727,1,4
+1_Lifting an Object,3,19,0.5,0.2631578947368421,4,10
+1_Lifting an Object,4,21,0.65,0.5714285714285714,0,9
+1_Lifting an Object,5,21,0.65,0.8095238095238095,0,4
+2_Extending the Elbow,1,21,0.65,0.8571428571428571,1,2
+2_Extending the Elbow,2,24,0.65,0.75,2,4
+2_Extending the Elbow,3,22,0.5,0.6818181818181818,4,3
+2_Extending the Elbow,4,20,0.6,0.75,2,3
+2_Extending the Elbow,5,20,0.65,0.65,0,7
+3_Lifting the Wrist,2,20,0.5,0.8,2,2
+3_Lifting the Wrist,3,15,0.5,0.6666666666666666,5,0
+3_Lifting the Wrist,4,21,0.65,0.7619047619047619,0,5
+3_Lifting the Wrist,5,20,0.6,0.5,10,0
+3_Lifting the Wrist,6,25,0.65,0.6,0,10
+4_Opening the Hand,1,10,0.5,0.6,4,0
+4_Opening the Hand,2,20,0.65,0.75,1,4
+4_Opening the Hand,3,9,0.5,0.7777777777777778,0,2
+4_Opening the Hand,4,22,0.6,0.45454545454545453,2,10
+4_Opening the Hand,5,20,0.55,0.85,1,2
+4_Opening the Hand,6,19,0.6,0.47368421052631576,7,3
