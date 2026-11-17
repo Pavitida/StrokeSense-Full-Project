@@ -1,0 +1,28 @@
+{
+  "version": "fusion_v2",
+  "fusion_model": "LogisticRegression",
+  "sources": {
+    "face": {
+      "model": "LinearSVM",
+      "path": "models/camera_demo/face_LinearSVM.pkl",
+      "sha256": "5289e0ba16a9811c6ada753e93f6e58a123abe9f1dbed6161a2ab35e33e72159",
+      "training_artifact": "outputs/palsynet_landmark_gpu/20261112T190038952644Z/LinearSVM.pkl"
+    },
+    "speech": {
+      "model": "LogisticRegression",
+      "path": "models/camera_demo/speech_LogisticRegression.pkl",
+      "sha256": "b723a58efd2aff574a77ac315989084fa9696d82fe594cc31db002414188cc5e",
+      "training_artifact": "outputs/combined_gpu/speech/20261116T122048959397Z/combined_LogisticRegression.pkl"
+    },
+    "movement": {
+      "model": "LogisticRegression",
+      "path": "models/camera_demo/movement_LogisticRegression.pkl",
+      "sha256": "3a388c14022e70c2c6775b0f19e1bdef55dd07e97be941c79889d4a8ce4a714a",
+      "training_artifact": "outputs/combined_gpu/movement/20261116T135802988738Z/combined_LogisticRegression.pkl"
+    }
+  },
+  "synthetic_fusion": {
+    "path": "models/camera_demo/fusion_synthetic_demo.pkl",
+    "sha256": "9cf062d4ff545dc78b0c2784ba4d60645cb9e874a0a7cbfca11d7588748905e7"
+  }
+}

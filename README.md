@@ -4,6 +4,8 @@ Local research prototype for facial asymmetry, speech characteristics and rehabi
 
 ## macOS installation
 
+The new **GPU camera demo** shows Face, Speech and Movement results automatically after recording, with an explicitly synthetic Fusion demonstration. See [camera demo setup](web/camera_demo/README.md) and [frozen model provenance](models/camera_demo/README.md). Its CUDA models are separate from the older app below; this demo requires NVIDIA GPU / Linux or WSL, and is not a GitHub Pages app.
+
 See [RUN_MACOS.md](RUN_MACOS.md) for an Apple Silicon (M-series, native arm64) quick start, frontend-only setup in VS Code, connecting an existing backend, or running the full app with Python 3.11 and CPU inference. macOS installation and hardware capture remain unverified.
 
 ## Ubuntu / WSL installation

@@ -16,6 +16,13 @@ env/
 # Local datasets and generated outputs
 data/
 outputs/
+datasets/
+training_data_v2/
+.venv-*/
+case-*_manifest.json
+case-*_face.png
+case-*_speech.webm
+case-*_movement.webm
 
 # Secrets
 .env
